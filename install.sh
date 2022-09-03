@@ -39,29 +39,69 @@ apt-get install golang
 mkdir ~/tools
 cd ~/tools/
 
-#installing
-echo "installing"
+#installing gau
+echo "installing gau"
 go install github.com/lc/gau/v2/cmd/gau@latest
-go install -v github.com/projectdiscovery/httpx/cmd/httpx@latest
+echo "done"
+
+
+#installing httpx
+echo "Installing httpx"
+go install github.com/projectdiscovery/httpx/cmd/httpx@latest
+echo "done"
+
+#installing dalfox
+echo "Installing dalfox"
 go install github.com/hahwul/dalfox/v2@latest
+echo "done"
+
+
+#installing subfinder
+echo "Installing subfinder"
 go install -v github.com/projectdiscovery/subfinder/v2/cmd/subfinder@latest
+echo "done"
+
+
+#installing unfurl
+echo "Installing unfurl"
 go install github.com/tomnomnom/unfurl@latest
-go install -v github.com/projectdiscovery/naabu/v2/cmd/naabu@latest
+echo "done"
+
+#installing naabu
+echo "Installing naabu"
+go install github.com/projectdiscovery/naabu/v2/cmd/naabu@latest
+echo "done"
+
+
+#installing subzy
+echo "Installing subzy"
 go install -v github.com/lukasikic/subzy@latest
+echo "done"
+
+
+
+#installing proxify
+echo "Installing proxify"
 go install -v github.com/projectdiscovery/proxify/cmd/proxify@latest
+echo "done"
+
+#installing gobuster
+echo "Installing gobuster"
 go install github.com/OJ/gobuster/v3@latest
 echo "done"
 
 
 #installing aquatone
-echo "Installing Aquatone"
+echo "Installing aquatone"
 go install github.com/michenriksen/aquatone@latest
 echo "done"
 
 
-
+#installing anew
+echo "installing anew"
+go install -v github.com/tomnomnom/anew@latest
+echo "done" 
  
-
 #installing kxss
 echo "installing kxss"
 go install github.com/Emoe/kxss@latest
@@ -69,13 +109,9 @@ echo "done"
 
 #installing waybackurls
 echo "installing waybackurls"
-go get -u github.com/tomnomnom/waybackurls
+go install github.com/tomnomnom/waybackurls@latest
 echo "done"
 
-#installing assetfinder
-echo "installing assetfinder"
-go get -u github.com/tomnomnom/assetfinder
-echo "done"
 
 
 #installing httprobe
@@ -83,6 +119,10 @@ echo "installing httprobe"
 go install github.com/tomnomnom/httprobe@latest
 echo "done"
 
+#installing assetfinder
+echo "installing assetfinder"
+go install github.com/tomnomnom/assetfinder@latest
+echo "done"
 
 #installing gf
 echo "installing gf"
@@ -108,11 +148,6 @@ echo "Installing subbrute"
 git clone https://github.com/TheRook/subbrute.git tools/subdomain-enum/subbrute
 echo "done"
 
-#installing assetfinder
-echo "Installing asset finder"
-go get -u github.com/tomnomnom/assetfinder
-echo "done"
-
 #installing domain-finder
 echo "Installing domain-finder"
 cd tools/subdomain-enum
@@ -121,12 +156,18 @@ echo "done"
 
 #installing rsdl
 echo "Installing rsdl"
-go get -u github.com/tismayil/rsdl
+go install github.com/tismayil/rsdl@latest
 go build rsdl.go
 
 #installing subDomainizer
 echo "Installing subDomainizer"
 git clone https://github.com/nsonaniya2010/SubDomainizer.git tools/subdomain-enum/subDomainizer
+echo "done"
+
+
+#installing qsreplace
+echo "installing qsreplace"
+go install github.com/tomnomnom/qsreplace@latest
 echo "done"
 
 #installing domain_analyzer
@@ -135,7 +176,7 @@ git clone https://github.com/eldraco/domain_analyzer.git tools/subdomain-enum/do
 echo "done"
 
 #installing XSRFProbe
-echo "installing XSRFProbe"
+echo "Installing XSRFProbe"
 git clone https://github.com/0xInfection/XSRFProbe.git
 pip install xsrfprobe
 echo "done"
@@ -155,7 +196,7 @@ echo "done"
 
 #installing amass
 echo "Installing amass"
-go get -u github.com/caffix/amass
+go install github.com/caffix/amass@latest
 echo "done"
 
 #installing sub.sh
@@ -198,7 +239,7 @@ echo "done"
 
 #installing slurp
 echo "installing slurp"
-go get -u github.com/nuncan/slurp
+go install github.com/nuncan/slurp@latest
 echo "done"
 
 #installing lazys3
