@@ -322,18 +322,18 @@ echo "done"
 
 #installing meg
 echo "installing meg"
-go get -u github.com/tomnomnom/meg
+go install github.com/tomnomnom/meg@latest
 echo "done"
 
 #installing hakrawler
 echo "installing hakrawler"
-go get  -u github.com/hakluke/hakrawler
+go install github.com/hakluke/hakrawler@latest
 echo "done"
 
 
 #installing ffuf
 echo "installing ffuf"
-go get -u github.com/ffuf/ffuf
+go install github.com/ffuf/ffuf@latest
 echo "done"
 
 #installing dirsearch
@@ -354,7 +354,7 @@ echo "done"
 
 #installing subjack
 echo "installing subjack"
-go get -u github.com/haccer/subjack
+go install github.com/haccer/subjack@latest
 echo "done"
 
 
@@ -372,7 +372,7 @@ echo "done"
 
 #installing SubOver
 echo "installing SubOver"
-go get -u github.com/Ice3man543/SubOver
+go install github.com/Ice3man543/SubOver@latest
 echo "done"
 
 
@@ -512,7 +512,7 @@ echo "done"
 
 #installing XRay
 echo "installing XRay"
-go get -u github.com/evilsocket/xray
+go install github.com/evilsocket/xray@latest
 echo "done"
 
 
@@ -606,7 +606,7 @@ echo "done"
 
 #installing httprobe
 echo "installing httprobe"
-go get -u github.com/tomnomnom/httprobe
+go install github.com/tomnomnom/httprobe@latest
 echo "done"
 
 #installing broken-link-checker
