@@ -55,8 +55,11 @@ echo "done"
 
 #installing aquatone
 echo "Installing Aquatone"
-go get -u github.com/michenriksen/aquatone
+go install github.com/michenriksen/aquatone@latest
 echo "done"
+
+
+
  
 
 #installing kxss
@@ -83,7 +86,7 @@ echo "done"
 
 #installing gf
 echo "installing gf"
-go get -u github.com/tomnomnom/gf
+go install github.com/tomnomnom/gf@latest
 echo "done"
 
 
