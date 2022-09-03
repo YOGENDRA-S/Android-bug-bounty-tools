@@ -35,3 +35,16 @@ apt-get install -y xargs
 
 apt-get install golang
 
+#install
+echo "installing"
+go install github.com/lc/gau/v2/cmd/gau@latest
+go install -v github.com/projectdiscovery/httpx/cmd/httpx@lates
+go install github.com/hahwul/dalfox/v2@latest
+go install -v github.com/projectdiscovery/subfinder/v2/cmd/subfinder@latest
+go install github.com/tomnomnom/unfurl@latest
+go install -v github.com/projectdiscovery/naabu/v2/cmd/naabu@latest
+go install -v github.com/lukasikic/subzy@latest
+go install -v github.com/projectdiscovery/proxify/cmd/proxify@latest
+go install github.com/OJ/gobuster/v3@latest
+echo "done"
+
