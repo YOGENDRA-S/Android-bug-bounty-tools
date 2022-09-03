@@ -56,6 +56,11 @@ go install github.com/hahwul/dalfox/v2@latest
 echo "done"
 
 
+#installing jsubfinder
+echo "installing jsubfinder"
+go install github.com/ThreatUnkown/jsubfinder@latest
+echo "done"
+
 #installing subfinder
 echo "Installing subfinder"
 go install -v github.com/projectdiscovery/subfinder/v2/cmd/subfinder@latest
